@@ -18,9 +18,8 @@ namespace UsersApi
         public string EmailUser { get; set; } = string.Empty;
 
         [StringLength(20)]
-        public string BirthDate { get; set; } = string.Empty;
+        public string BirthDate { get; set; } = string.Empty; //A Data está recebendo em string pois a validação será feita no front
 
-        [StringLength(20)]
         public int LevelOfSchooling { get; set; }
 
     }
